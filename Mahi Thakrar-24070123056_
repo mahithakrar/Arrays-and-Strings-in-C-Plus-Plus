@@ -1,0 +1,26 @@
+include <iostream>
+using namespace std;
+
+int main() {
+    int marks[5];
+    int key=98;
+    
+    cout<<"The marks of the students are:"<<endl;
+    
+    for(int i=0;i<5;i++){
+        cin>>marks[i];
+    }
+    
+    for(int n=0;n<5;n++){
+        cout<<marks[n]<<" ";
+    }
+    
+    for(int i=0;i<5;i++){
+        if(key==marks[i]){
+            cout<<"Key found at location:"<<&marks[i];
+        }
+    }
+    
+
+    return 0;
+}
