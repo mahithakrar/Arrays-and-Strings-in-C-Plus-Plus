@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int arr[6],sum=0;
+float average;
+
+cout<<"The numbers of array are:"<<endl;
+
+for(int i=0; i<6; i++){
+    cin>>arr[i];
+ }
+
+for(int n=0; n<6; n++){
+    cout<<arr[n]<<" ";
+ }
+ 
+cout<<"\nThe sum of the elements of an array is:"<<endl;
+for(int i=0; i<6; i++){
+     sum+=arr[i];
+ }
+cout<<sum<<endl;
+
+average=sum/6;
+
+cout<<"The average of the elements of an array is:"<<average<<endl;
+
+return 0;
+}
+
+
+//Output:
+The numbers of array are:
+//1
+//2
+//3
+//4
+//5
+//6
+//1 2 3 4 5 6 
+//The sum of the elements of an array is:
+//21
+//The average of the elements of an array is:3
