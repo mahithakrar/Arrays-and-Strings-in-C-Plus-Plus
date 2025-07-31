@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char str1[4]="C++";
+    cout<<"The first string is:"<<str1<<endl;
+    
+    char str2[]={'C','+','+','\0'};
+    cout<<"The second string is:"<<str2<<endl;
+    
+    char str3[4]={'C','+','+','\0'};
+    cout<<"The third string is:"<<str3<<endl;
+    
+    string str4="C++";
+    cout<<"The fourth string is:"<<str4<<endl;
+
+    return 0;
+}
+
+//Output:
+//The first string is:C++
+//The second string is:C++
+//The third string is:C++
+//The fourth string is:C++
