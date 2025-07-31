@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s1;
+    cout<<"Enter your first string:"<<endl;
+    cin>>s1;
+    
+    string s2;
+    cout<<"Enter your second string:"<<endl;
+    cin>>s2;
+    
+    string concatenate;
+    concatenate=s1+" "+s2;
+    cout<<"The concatenated string is:"<<concatenate<<endl;
+    
+    return 0;
+}
+
+//Output:
+//Enter your first string:
+//Hello
+//Enter your second string:
+//World
+//The concatenated string is:Hello World
+
+The concatenated string is:Hello World
