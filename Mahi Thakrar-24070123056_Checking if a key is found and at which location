@@ -24,3 +24,22 @@ int main() {
 
     return 0;
 }
+
+//Output:
+//The marks of student are:
+//85
+//75
+//12
+//58
+//36
+//76
+//85 75 12 58 36 76
+//The marks of student are:
+//99
+//15
+//65
+//85
+//39
+//58
+//99 15 65 85 39 58 
+//key found at location:1
