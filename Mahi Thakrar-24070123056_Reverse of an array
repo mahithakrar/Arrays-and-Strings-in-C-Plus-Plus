@@ -20,9 +20,14 @@ cout<<"The numbers of array are:"<<endl;
     cout<<arr[n]<<" ";
  }
 
- for(int i=5;i>0;i--){
+ for(int i=4;i>=0;i--){
     cout<<arr[i]<<" ";
  }
 
 return 0;
 }
+
+//Output:
+//The numbers of array are:
+//2 4 6 8 10
+//2 4 6 8 10 10 8 6 4 2 
